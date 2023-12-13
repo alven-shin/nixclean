@@ -19,7 +19,7 @@ def main() -> None:
     )
 
     print(
-        "Deleted:\n{}".format(
+        "\nDeleted:\n{}".format(
             "\n".join(itertools.chain(deleted_direnvs, deleted_binaries))
         )
     )
